@@ -1,40 +1,10 @@
-      
-body{
-            background-color: rgb(24, 241, 107);
-            color: white;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+}
 
-        }
-        input{
-            background-color: white;
-        }
-        .kirim{
-        background-color: chartreuse;
-        color: white;
-        
-        }
-        .reset{
-            background-color: rgb(255, 0, 0);
-        color: white;
-        
-        }
-        .klik{
-            background-color: chartreuse;
-        color: white;
-        
-        }
-        .btn{
-            text-transform: uppercase;
-        padding: 5px 10px;
-        margin: 10px;
-        
-        }
-        .btn:hover{
-            cursor: pointer;
-            background-color: antiquewhite;
-            color: black;
-            text-transform: uppercase;
-            border-radius: 5px;
-
-        }
-   
+#board {
+    background-image: url("img/flappybirdbg.png");
+    background-size: cover;
+    border: 2px solid black;
+}
